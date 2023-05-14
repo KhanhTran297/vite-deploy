@@ -1,0 +1,20 @@
+#root {
+  width: 100%;
+  height: auto;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus + .error-input {
+  display: none;
+}
+::-webkit-scrollbar {
+  display: none;
+  width: 8px;
+  /* background: lightgray; */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
